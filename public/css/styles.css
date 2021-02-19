@@ -1,0 +1,24 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+.is-180x180{
+    height: 180px;
+    width: 180px;
+}
+.has-bg-image {
+    background-image: url('../images/cover11.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bulma-image {
+    width: 200px;
+}
+.summary-text {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+}

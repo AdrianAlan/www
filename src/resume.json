@@ -1,0 +1,82 @@
+﻿{
+  "basics": {
+    "name": "Adrian Alan Pol",
+    "label": "Software Engineer",
+    "picture": "images/adrianalanpol.jpg",
+    "x_pictureFallback": "images/adrianalanpol.jpg",
+    "x_title": "Welcome!",
+    "summary": "I am a computer science PhD, with seven years of professional experience in large international scientific institutions and technology companies. My responsibilities include data analysis, model prototyping and visualization. I am thrilled to take on new challenges and further sharpening my skills in deep learning.",
+    "location": {
+      "country": "Switzerland",
+      "region": "Geneva"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "adrianalanpol",
+        "url": "https://www.linkedin.com/in/adrianalanpol",
+        "x_icon": "fab fa-2x fa-linkedin"
+      },
+      {
+        "network": "GitHub",
+        "username": "AdrianAlan",
+        "url": "https://github.com/AdrianAlan",
+        "x_icon": "fab fa-2x fa-github"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "CERN",
+      "position": "",
+      "startDate": "2019-10-01",
+      "endDate": "",
+      "summary": "Senior fellow, machine learning expert",
+      "highlights": []
+    },
+    {
+      "company": "CERN",
+      "position": "",
+      "startDate": "2016-10-01",
+      "endDate": "2019-10-01",
+      "summary": "Doctoral student",
+      "highlights": []
+    },
+    {
+      "company": "Mendix (Siemens)",
+      "position": "",
+      "startDate": "2016-03-01",
+      "endDate": "",
+      "summary": "Software developer",
+      "highlights": []
+    },
+    {
+      "company": "CERN",
+      "position": "",
+      "startDate": "2014-10-01",
+      "endDate": "",
+      "summary": "Data analysis and data visualization expert",
+      "highlights": []
+    },
+    {
+      "company": "IBM",
+      "position": "",
+      "startDate": "2014-06-01",
+      "endDate": "",
+      "summary": "Software engineering intern at the Extreme Blue program.",
+      "highlights": []
+    }
+  ],
+  "articles": [
+   {
+     "title": "Automatic deep heterogeneous quantization of Deep Neural Networks for ultra low-area, low-latency inference on the edge at particle colliders",
+     "abstract": "While the quest for more accurate solutions is pushing deep learning research towards larger and more complex algorithms, edge devices demand efficient inference i.e. reduction in model size, latency and energy consumption. A technique to limit model size is quantization, i.e. using fewer bits to represent weights and biases. Such an approach usually results in a decline in performance. Here, we introduce a novel method for designing optimally heterogeneously quantized versions of deep neural network models for minimum-energy, high-accuracy, nanosecond inference and fully automated deployment on chip. With a per-layer, per-parameter type automatic quantization procedure, sampling from a wide range of quantizers, model energy consumption and size are minimized while high accuracy is maintained. This is crucial for the event selection procedure in proton-proton collisions at the CERN Large Hadron Collider, where resources are strictly limited and a latency of O(1) μs is required. Nanosecond inference and a resource consumption reduced by a factor of 50 when implemented on FPGA hardware is achieved.",
+     "url": "https://arxiv.org/abs/2006.10159"
+   },
+   {
+     "title": "Anomaly Detection With Conditional Variational Autoencoders",
+     "abstract": "Exploiting the rapid advances in probabilistic inference, in particular variational Bayes and variational autoencoders (VAEs), for anomaly detection (AD) tasks remains an open research question. Previous works argued that training VAE models only with inliers is insufficient and the framework should be significantly modified in order to discriminate the anomalous instances. In this work, we exploit the deep conditional variational autoencoder (CVAE) and we define an original loss function together with a metric that targets hierarchically structured data AD. Our motivating application is a real world problem: monitoring the trigger system which is a basic component of many particle physics experiments at the CERN Large Hadron Collider (LHC). In the experiments we show the superior performance of this method for classical machine learning (ML) benchmarks and for our application.",
+     "url": "https://arxiv.org/abs/2010.05531"
+    }
+  ]
+}
