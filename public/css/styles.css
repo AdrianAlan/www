@@ -9,7 +9,7 @@ body {
     width: 180px;
 }
 .has-bg-image {
-    background-image: url('../images/cover11.png');
+    background-image: url('../images/cover11.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

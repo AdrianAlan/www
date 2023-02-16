@@ -7,9 +7,7 @@ import Resume from "./resume.json";
 class App extends Component {
   componentDidMount() {
     document.title = [
-      Resume.basics.name,
-      Resume.basics.label,
-      [Resume.basics.location.region, Resume.basics.location.country].join(", ")
+      Resume.basics.name
     ].join(" | ");
   }
 

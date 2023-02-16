@@ -9,9 +9,6 @@ function Article(props) {
         </a>
       </div>
       <div className="card-content">
-        <div className="content">
-          <p>{props.extract}</p>
-        </div>
         <a href={props.url} target="blank">
           Read the full article
         </a>
