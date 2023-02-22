@@ -4,11 +4,13 @@
     "label": "Software Engineer",
     "picture": "images/adrianalanpol.jpg",
     "x_pictureFallback": "images/adrianalanpol.jpg",
-    "summary": "I am a software engineer and machine learning researcher working with 4000 scientists on the CMS experiment at the CERN Large Hadron Collider. I work with multi-disciplinary teams to integrate state-of-the-art deep learning in the production code for the operation of our experiment. My current projects include computer vision, anomaly detection and efficient model inference in sub-100ns latency.",
-    "x_title": "Hello!",
-    "introduction1": "Since 2013, I have worked at CERN, the largest particle physics laboratory in the world, and at Princeton University as Postdoctoral Research Associate. During this time, I have worked on the CMS experiment, which operates at the Large Hadron Collider, arguably the most technically advanced machine humans have ever built. My everyday work and research focuses on machine learning applications to the trigger system which filters the incoming data stream from the collisions.",
-    "introduction2": "I earned my PhD in Computer Science from the University of Paris Saclay. Before that, I studied Telecommunications Engineering at the Technical University of Denmark and the National University of Singapore; and Electrical Engineering at the Lodz University of Technology and the Polytechnic University of Turin.",
-    "introduction3": "I enjoy good tea and wine.",
+    "summary": "",
+    "x_title": "",
+    "introduction1": "Hi, I'm Adrian. I am a software engineer and machine learning researcher working on a $500M <a href='https://cms.cern/'>physics experiment</a> with 4000 scientists worldwide.",
+    "introduction2": "I cooperate in multidisciplinary and multicultural teams to integrate and scale the state-of-the-art deep learning in the production code.",
+    "introduction3": "In my free time I share my passion for science and technology by showing the <a href='https://home.cern/science/accelerators/large-hadron-collider'>Large Hadron Collider (LHC)</a> to the public as an official guide.",
+    "introduction4": "I focus on generative models, anomaly detection and inference optimization. I published my findings in Nature, ICLR, NeurIPS, IEEE.",
+    "introduction5": "I enjoy good tea and wine.",
     "location": {
       "country": "Switzerland",
       "region": "Geneva"
@@ -27,126 +29,58 @@
         "x_icon": "fab fa-github"
       },
       {
-        "network": "Google Scholar",
+        "network": "Scholar",
         "username": "dKzjiuEAAAAJ",
         "url": "https://scholar.google.com/citations?user=dKzjiuEAAAAJ&hl=en",
         "x_icon": "fas fa-book"
       }
     ]
   },
-  "work": [
-     {
-      "company": "Princeton University",
-      "position": "",
-      "startDate": "2022-02-01",
-      "endDate": "",
-      "summary": "Postdoctoral Research Associat",
-      "highlights": []
-    },
-    {
-      "company": "CERN",
-      "position": "",
-      "startDate": "2019-10-01",
-      "endDate": "",
-      "summary": "Senior Fellow",
-      "highlights": []
-    },
-   {
-      "company": "CERN",
-      "position": "",
-      "startDate": "2016-10-01",
-      "endDate": "2019-10-01",
-      "summary": "Doctoral Student",
-      "highlights": []
-    },
-    {
-      "company": "Mendix (Siemens)",
-      "position": "",
-      "startDate": "2016-03-01",
-      "endDate": "",
-      "summary": "Software Developer",
-      "highlights": []
-    },
-    {
-      "company": "CERN",
-      "position": "",
-      "startDate": "2014-10-01",
-      "endDate": "",
-      "summary": "Software Engineering Intern",
-      "highlights": []
-    },
-    {
-      "company": "IBM",
-      "position": "",
-      "startDate": "2014-06-01",
-      "endDate": "",
-      "summary": "Software Engineering Intern",
-      "highlights": []
-    }
-  ],
   "news": [
-       {
-     "title": "Talk at Rutgers HEX Seminar at Rutgers University, New Jersey, United States",
-     "content": "Title: Model Compression for the Hardware Trigger. Abstract: The CERN Large Hadron Collider (LHC) particle accelerator operates at a nominal collision rate of 40 MHz. The experiments around the accelerator ring must reduce the volume of recorded data due to storage constraints and technological limitations.  Trigger systems are used to filter the incoming data stream in real-time. The Compact Muon Solenoid (CMS) experiment deploys a two-stage trigger system. The first stage is implemented in hardware (ASICs and FPGAs) and reduces the 40 MHz input to a 100 kHz event rate in sub 10 us latency. With the planned LHC high-luminosity upgrade, Phase 2, the number of simultaneous collisions per event will surge approximately four-fold, and the complexity of the selection algorithms will increase. The high energy physics (HEP) community is investigating the feasibility of deploying more deep-learning-based solutions to meet these demands. However, we cannot run over-parametrized neural networks with float64 precision on hardware due to resource limitations. In this talk, I overview available tools and methods for model compression, i.e. quantization, pruning and knowledge distillation. These methods are used beyond HEP, e.g. for autonomous vehicles or mobile devices. They will allow us to meet the hardware trigger's unprecedented latency and resource constraints.",
-     "date": "11 November 2022"
+    {
+      "title": "Poster at ICLR 2023 in Kigali",
+      "content": "I was proud to present our work on quantization, preprint available <a href='https://arxiv.org/abs/2210.08502'>here</a>.",
+      "date": "1 May 2023"
     },
-       {
-     "title": "Talk at ML@L1 Trigger Workshop at the Fermilab LPC, Illinois, United States",
-     "content": "Title 'Machine Learning Anomaly Detection with Calorimeter Data for Run 3 and Beyond'. On behalf of the CaloL1 Anomaly Detection Team that works on the new trigger path for Beyond Standard Model physics.",
-     "date": "13 October 2022"
+    {
+      "title": "Talk at HEX Seminar at Rutgers University",
+      "content": "I gave a talk titled <i>Model Compression for the Hardware Trigger</i>.",
+      "date": "11 November 2022"
     },
-       {
-     "title": "Talk at Hammers and Nails 2022 at Weizmann Institute of Science, Israel",
-     "content": "Title 'Model Compression Methods for the Hardware Trigger'. Talk coveres application of novel quantization heuristics.",
-     "date": "9 August 2022"
+    {
+      "title": "Talk at ML@L1 Trigger Workshop at Fermilab LPC",
+      "content": "I presented our latest results on  <i>Machine Learning Anomaly Detection with Calorimeter Data for Run 3 and Beyond</i>.",
+      "date": "13 October 2022"
     },
-{
-     "title": "Lecturer at Fourth Computational and Data Science School for HEP, Princeton University, New Jersey, United States",
-     "content": "8 hours of lecures and tutorials covered introduction to machine learning, decision trees, deep learning, convolutional neural networks, graph neural networks,  unsupervised machine learning and autoencoders.",
-     "date": "2 August 2022"
+    {
+      "title": "Talk at Hammers and Nails 2022 at Weizmann Institute of Science",
+      "content": "I gave a talk titled <i>Model Compression Methods for the Hardware Trigger</i>'. Talk coveres application of novel quantization heuristics.",
+      "date": "9 August 2022"
     },
-{
-     "title": "Our paper was accepted for publication in Machine Learning: Science and Technology journal",
-     "content": "Title: Lightweight jet reconstruction and identification as an object detection task. Abstract: We apply object detection techniques based on deep convolutional blocks to end-to-end jet identification and reconstruction tasks encountered at the CERN large hadron collider (LHC). Collision events produced at the LHC and represented as an image composed of calorimeter and tracker cells are given as an input to a Single Shot Detection network. The algorithm, named PFJet-SSD performs simultaneous localization, classification and regression tasks to cluster jets and reconstruct their features. This all-in-one single feed-forward pass gives advantages in terms of execution time and an improved accuracy w.r.t. traditional rule-based methods. A further gain is obtained from network slimming, homogeneous quantization, and optimized runtime for meeting memory and latency constraints of a typical real-time processing environment. We experiment with 8-bit and ternary quantization, benchmarking their accuracy and inference latency against a single-precision floating-point. We show that the ternary network closely matches the performance of its full-precision equivalent and outperforms the state-of-the-art rule-based algorithm. Finally, we report the inference latency on different hardware platforms and discuss future applications.",
-     "date": "4 July 2022"
+    {
+      "title": "Lecture at 4th Computational and Data Science School for HEP at Princeton University",
+      "content": "I gave 8 hours of lecures and tutorials that covered introduction to machine learning, decision trees, deep learning, convolutional neural networks, graph neural networks,  unsupervised machine learning and autoencoders.",
+      "date": "2 August 2022"
     },
-{
-     "title": "Contribution at the 5th Inter-experiment Machine Learning Workshop at CERN, Geneva, Switzerland",
-     "content": "Title: ML for SUEP Detection. Abstract: We explore a possible avenue for detecting Dark Showers that manifest as Soft Unclustered Energy Patterns (SUEP) in the detector with the use of supervised machine learning techniques and transfer learning. We employ a ResNet model based on Convolutional Neural Networks (CNNs) to classify events. Additionally, a robust, data-driven background estimation technique is embedded into the model architecture through a Distance Correlation (DiSco) term in the loss function of the network; this achieves decorrelation between the classifier output and another physics-motivated discriminant in order to estimate background in the signal region through the ABCD method.",
-     "date": "13 May 2022"
+    {
+      "title": "Our paper was accepted for publication in <i>Machine Learning: Science and Technology</i> journal",
+      "content": "Paper titled <i>Lightweight jet reconstruction and identification as an object detection task</i> was accepted for pubilication. Preprint <a href='https://arxiv.org/abs/2202.04499'>here</a>.",
+      "date": "4 July 2022"
     },
-{
-     "title": "Co-organizer of Fundamentals of Deep Learning workshop at AMLD 2022 at EPFL, Lausanne, Switzerland",
-     "content": "In this workshop, students learned how deep learning works through hands-on exercises in popular artificial intelligence areas namely Computer Vision (CV) and Natural Language Processing (NLP). They trained deep learning models from scratch, learn tools and tricks to achieve highly accurate results by working on binary, multi-class, and text generation scenarios. They also learned to leverage freely available, state-of-the-art pre-trained models to save time and get your deep learning application up and running quickly through Transfer Learning. Other core concepts of learning include Data Augmentation, Feature Extraction, Fine Tuning, Embeddings, and loss functions.",
-     "date": "27 April 2022"
+    {
+      "title": "Contribution at the 5th Inter-Experiment Machine Learning Workshop at CERN",
+      "content": "I co-authored a talk on <i>Machine Learning for SUEP Detection</i>",
+      "date": "13 May 2022"
     },
-{
-     "title": "Our book 'Artificial Intelligence for High Energy Physics' was published by World Scientific Publishing Company",
-     "content": "From the book description on Amazon. The Higgs boson discovery at the Large Hadron Collider in 2012 relied on boosted decision trees. Since then, high energy physics (HEP) has applied modern machine learning (ML) techniques to all stages of the data analysis pipeline, from raw data processing to statistical analysis. The unique requirements of HEP data analysis, the availability of high-quality simulators, the complexity of the data structures (which rarely are image-like), the control of uncertainties expected from scientific measurements, and the exabyte-scale datasets require the development of HEP-specific ML techniques. While these developments proceed at full speed along many paths, the nineteen reviews in this book offer a self-contained, pedagogical introduction to ML models' real-life applications in HEP, written by some of the foremost experts in their area.",
-     "date": "14 March 2022"
-    }
-
-  ],
-  "articles": [
-   {
-     "title": "Lightweight Jet Reconstruction and Identification as an Object Detection Task",
-     "abstract": "",
-     "url": "https://arxiv.org/abs/2202.04499"
-   },
-   {
-    "title": "Autoencoders on field-programmable gate arrays for real-time, unsupervised new physics detection at 40 MHz at the Large Hadron Collider",
-    "abstract": "",
-    "url": "https://www.nature.com/articles/s42256-022-00441-3"
-  },   
-   {
-     "title": "Automatic deep heterogeneous quantization of Deep Neural Networks for ultra low-area, low-latency inference on the edge at particle colliders",
-     "abstract": "",
-     "url": "https://www.nature.com/articles/s42256-021-00356-5"
-   },
-  {
-     "title": "Anomaly Detection With Conditional Variational Autoencoders",
-     "abstract": "",
-     "url": "https://ieeexplore.ieee.org/document/8999265/"
+    {
+      "title": "Co-organizer of NVIDIA DLI workshop at AMLD 2022 at EPFL",
+      "content": "In this workshop I covered the <i>Fundamentals of Deep Learning</i> course for the audience of over fifty attendands.",
+      "date": "27 April 2022"
+    },
+    {
+      "title": "The book 'Artificial Intelligence for High Energy Physics' was published",
+      "content": "From the book description on <a href='https://www.amazon.com/Artificial-Intelligence-High-Energy-Physics/dp/9811234027'>Amazon</a>: The Higgs boson discovery at the Large Hadron Collider in 2012 relied on boosted decision trees. Since then, high energy physics (HEP) has applied modern machine learning (ML) techniques to all stages of the data analysis pipeline, from raw data processing to statistical analysis. The unique requirements of HEP data analysis, the availability of high-quality simulators, the complexity of the data structures (which rarely are image-like), the control of uncertainties expected from scientific measurements, and the exabyte-scale datasets require the development of HEP-specific ML techniques. While these developments proceed at full speed along many paths, the nineteen reviews in this book offer a self-contained, pedagogical introduction to ML models' real-life applications in HEP, written by some of the foremost experts in their area.",
+      "date": "14 March 2022"
     }
   ]
 }

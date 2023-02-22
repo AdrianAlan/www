@@ -1,4 +1,5 @@
 import React from "react";
+import parse from "html-react-parser";
 
 function NewsItem(props) {
   return (
@@ -7,9 +8,9 @@ function NewsItem(props) {
         <img src="" alt="" />
       </div>
       <div className="news-content">
-        <p className="title is-6 has-text-dark has-text-weight-bold">{props.date}</p>
-        <p className="title is-4 has-text-dark has-text-weight-bold">{props.title}</p>
-        <p className="subtitle is-6 has-text-dark  has-text-weight-bold">{props.content}</p>
+        <p className="subtitle is-6 has-text-dark">{props.date}</p>
+        <p className="title is-6 has-text-dark has-text-weight-bold">{parse(props.title)}</p>
+        <p className="subtitle is-6 has-text-dark">{parse(props.content)}</p>
       </div>
     </div>
   );

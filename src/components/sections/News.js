@@ -11,29 +11,31 @@ class News extends Component {
   componentDidMount() {
     let news = [];
     Resume.news
-	  .map((item, index) => {
-          news.push(
-	    <div className="columns">
-            <div className="column is-12" key={index}>
-              <NewsItem
-                key={index}
-                title={item.title}
-                date={item.date}
-                content={item.content}
-              />
+      .map((item, index) => {
+        news.push(
+          <div className="container">
+            <div className="columns">
+              <div className="column is-12" key={index}>
+                <NewsItem
+                  key={index}
+                  title={item.title}
+                  date={item.date}
+                  content={item.content}
+                />
+              </div>
             </div>
-            </div>
-          );
-        });
-        this.setState({ news: news });
-      };
-  
+          </div>
+        );
+      });
+    this.setState({ news: news });
+  };
+
 
   render() {
     return (
       <section className="section" id="news">
-        <div className="container">
-          <h2 className="title has-text-dark has-text-weight-bold">News</h2>
+        <div className="container summary-text">
+          <p className="subtitle is-5">News:</p>
           {this.state.news}
         </div>
       </section>
